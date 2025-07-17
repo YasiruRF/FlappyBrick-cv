@@ -21,16 +21,14 @@ pip install -r requirements.txt
 ## How to Play
 
 1. Run the script:
-   ```
-   python hand_gesture_game.py
-   ```
 
+   ```
+   python main.py
+   ```
 2. Control the player with your hand gestures:
-   - Open palm: Move the player up
-   - Closed palm: Move the player down
-
+   Open palm: Move the player up
+   Closed palm: Move the player down
 3. Try to navigate through the obstacles to score points.
-
 4. Press ESC to quit the game, or SPACE to restart after game over.
 
 ## Game Rules
@@ -39,4 +37,3 @@ pip install -r requirements.txt
 - Each obstacle you pass gives you 1 point
 - Colliding with an obstacle ends the game
 - The game gets progressively more challenging as you score more points
-
